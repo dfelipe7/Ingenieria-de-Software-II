@@ -22,6 +22,8 @@ public class Main {
         figures.add(fig4);
         //figures.add(fig5);
         figures.add(fig6);
+        
+        // mostrar elementos del aaray
         int i=0;
         for (Figure fig : figures) {
             System.out.println("Figura "+(i+1)+":");
