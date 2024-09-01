@@ -21,6 +21,9 @@ public class Square extends Figure {
         return lado;
     }
 
+    public void setLado(int lado){
+        this.lado=lado;
+    }
     @Override
     public double calculateArea() {
         return Math.pow(lado, 2);

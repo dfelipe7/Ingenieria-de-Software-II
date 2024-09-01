@@ -15,7 +15,10 @@ public class Main {
         Figure fig4 = new Triangle(5,4,2);
         //Figure fig5 = new Triangle(2);
         Figure fig6 = new Square(2);
+        
+        
         List<Figure> figures = new ArrayList<>();
+        //Añadir eletos al array
         figures.add(fig1);
         figures.add(fig2);
         figures.add(fig3);
@@ -23,7 +26,7 @@ public class Main {
         //figures.add(fig5);
         figures.add(fig6);
         
-        // mostrar elementos del aaray
+        // mostrar elementos del array
         int i=0;
         for (Figure fig : figures) {
             System.out.println("Figura "+(i+1)+":");
