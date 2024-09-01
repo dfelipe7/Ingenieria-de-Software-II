@@ -15,6 +15,8 @@ import org.junit.jupiter.api.Test;
  * @author Unicauca
  */
 public class TriangleTest {
+   
+    //Enviar parametros y probar fucninamiento del contructtor, get and set
     @Test
     void testCreate(){
         Triangle triangulo = new Triangle(5,4,2);
