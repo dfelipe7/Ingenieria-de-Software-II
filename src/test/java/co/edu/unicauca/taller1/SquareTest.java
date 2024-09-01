@@ -35,10 +35,10 @@ public class SquareTest {
         assertEquals(4,cuadrado.calculateArea());
     }
     
+    
     /*
     Metodo para enviar los parametros de prueba a cada metodo cada vez que
     se ejecute la prueba, y no inicializar el constructor por cada metodo individual
-    
     */
     @BeforeEach
     void inicializarParametros(){

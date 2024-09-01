@@ -7,6 +7,8 @@ import java.util.ArrayList;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        
+        //Creacion de objetos para cada figura
         Figure fig1 = new Circle(1.0); //radio
         Figure fig2 = new Circle(2.3); //lado
         Figure fig3 = new Circle(4.2); //base y altura
